@@ -1,6 +1,4 @@
-# PasswordGenerator
-
-# Title: # 02-Responsive Portfolio-Dan-Aument-UT-Homework
+# Title: # 03-PasswordGenerator-Dan-Aument-UT-Homework
 
 ## Table of Contents:
 * [Description](#Description)
@@ -11,21 +9,26 @@
 * [License](#License)
 
 ### <a name="Description">Description:</a>
-This project serves as a homework assignment submission for the second week of UT's web dev coding bootcamp.  It contains a deployed portfolio of work samples for potential employers to view.
+This project serves as a homework assignment submission for the third week of UT's web dev coding bootcamp.  It contains a codebase and a deployed webpage for a password generator.
 
 ### <a name="Screenshot">Screenshot: </a>
-<img src="./assets/images/responsivePortfolioScreenshot.png" width="250x" />
+<img src="passwordGeneratorScreenshot.png" width="250x" />
 
 ### <a name="Location">Location of Deployed Project:</a>
-https://danaument.github.io
+https://danaument.github.io/PasswordGenerator/
 
 ### <a name="Notes">Notes from Dan:  </a>
 
-This project was my second assignment for my web dev bootcamp.  It contains a portfolio that I will continue to develop and expand. It is a single page and most of the projects that it displays are filler.
-Unfortunately, I had not received any grades or comments on my first assignment by the time that this assignment was due.  Therefore it is possible that I have repeated some mistakes from my previous efforts.
+This project was my third assignment for my web dev bootcamp.  It contains my first major foray into Javascript.
+
+This was the first assignment for which I completed ample pseudocode.  I know that Javascript will be hugely important almost everywhere, but figuring out the process of moving from requirements to pseudocode to code with line-by-line testing will probably be the biggest lesson I learned from this assignment.
+
+I was able to satisfy the requirements of the assignment early in the week and decided to add a feature.  In most real world scenarios, web apps often both allow and *require* the use of special characters and numbers.  I wanted my password generator to not only use those characters but to also make certain that the resulting password included at least one of each type that the user selected.  I nested my password generating function in a do/while loop with a condition that I was able to cobble together from examples I found on the web.
 
 ### <a name="Credits">Credits: </a>
 This project was completed by Dan Aument with help from his tutor, Leah Nelson, using code and assets provided by The Coding Boot Camp at UT Austin in partnership with Trilogy Education Services.  
+
+I made use of this Stack Overflow discussion: https://stackoverflow.com/questions/1885557/simplest-code-for-array-intersection-in-javascript.
 
 ### <a name="License">License: </a>
 
