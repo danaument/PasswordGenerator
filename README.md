@@ -23,7 +23,9 @@ This project was my third assignment for my web dev bootcamp.  It contains my fi
 
 This was the first assignment for which I completed ample pseudocode.  I know that Javascript will be hugely important almost everywhere, but figuring out the process of moving from requirements to pseudocode to code with line-by-line testing will probably be the biggest lesson I learned from this assignment.
 
-I was able to satisfy the requirements of the assignment early in the week and decided to add a feature.  In most real world scenarios, web apps often both allow and *require* the use of special characters and numbers.  I wanted my password generator to not only use those characters but to also make certain that the resulting password included at least one of each type that the user selected.  I nested my password generating function in a do/while loop with a condition that I was able to cobble together from examples I found on the web.
+I was able to satisfy the requirements of the assignment early in the week and decided to add a feature.  In most real world scenarios, web apps often both allow and *require* the use of special characters and numbers.  I wanted my password generator to not only use those characters but to also make certain that the resulting password included at least one of each type that the user selected.  I nested my password generating function in a do/while loop with a condition that I was able to cobble together from examples I found on the web.  
+
+During the course of developing this project, I used probably 40 console.log() lines.  Per the recommendation of one of my class TAs, I have removed all but one.  **Open the console** to few the components of the while condition.  
 
 ### <a name="Credits">Credits: </a>
 This project was completed by Dan Aument with help from his tutor, Leah Nelson, using code and assets provided by The Coding Boot Camp at UT Austin in partnership with Trilogy Education Services.  

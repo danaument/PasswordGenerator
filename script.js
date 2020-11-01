@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");  //drill down to button element with tag generate
-var sourceUpper = "abcdefghijklmnopqrstuvwxyz".split("");
-var sourceLower = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+var sourceLower = "abcdefghijklmnopqrstuvwxyz".split("");
+var sourceUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var sourceNum = "0123456789".split("");
 var sourceSpecial = " !#$%&\\'()*+,-./:;<=>?@[]^_`{|}~".split(""); 
 
