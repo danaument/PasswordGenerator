@@ -29,10 +29,10 @@ function writePassword() {
   }  //The assignment readme listed this "when/then" item after the character types "when/then" item.  If I accomplish all acceptance criteria, does it matter in which order I do so?  I wanted this prompt to come before the confirms because I would use less of the user's time.  This is the only question that the user can get "wrong", since it is a text field rather than a binary choice.  If they did so and realized their mistake, I wanted them to have to repeat as few steps as possible on their subsequent uses.
   else {
   
-    var includeLower = confirm("Should the workingPassword include lowercase letters?  (Click 'Okay' to include or 'Cancel' to not include.)");
-    var includeUpper = confirm("Should the workingPassword include uppercase letters?  (Click 'Okay' to include or 'Cancel' to not include.)");
-    var includeNum = confirm("Should the workingPassword include numbers?  (Click 'Okay' to include or 'Cancel' to not include.)");
-    var includeSpecial = confirm("Should the workingPassword include special characters?  (Click 'Okay' to include or 'Cancel' to not include.)");
+    var includeLower = confirm("Should the password include lowercase letters?  (Click 'Okay' to include or 'Cancel' to not include.)");
+    var includeUpper = confirm("Should the password include uppercase letters?  (Click 'Okay' to include or 'Cancel' to not include.)");
+    var includeNum = confirm("Should the password include numbers?  (Click 'Okay' to include or 'Cancel' to not include.)");
+    var includeSpecial = confirm("Should the password include special characters?  (Click 'Okay' to include or 'Cancel' to not include.)");
     
     var passwordIngredients = {  //I put this object in at the direction of my tutor.  I did not use it consistently since the included variables are still in the scope of this function and calling the object and key is longer than just the inner variable.  Using an object like this would be useful if the number of arrays in the object varied.
       lower: includeLower,
